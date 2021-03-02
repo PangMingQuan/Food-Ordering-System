@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Menu List</title>
+	<style>
+	body{
+	
+	background-color: #D6EAF8 ;
+	
+	</style>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	
+		<script src = "js\functionoldtown.js"></script>
+
+	</head>
+	<body>
+	
+		<img src = "images\tenor.gif" width = "200" height = "200" class="picLeft">
+		<img src = "images\tenor.gif" width = "200" height = "200" class="picRight">
+		<center><img src = "images\food.jpg" width = "1000" height = "200"alt="Food"></center>
+		<div class="text-wrapper">
+		
+		<p style = "font-family:Comic Sans;"><span style="background-color: #EC7063"><h1><p><center>FoodBear</center></p></h1></mark>
+		<h1><p><center>Foods always be there for you</center></p></h1></span></p>
+		
+		<br><br><br><br><br>
+		<ul class="nav">
+  <li class="nav"><a href="web-interface.html">Home</a></li>
+  <li class="nav"><a href="ot.html">Our Team</a></li>
+  <li class="nav"><a href="contact.html">Contact Us</a></li>
+  <li class="nav"><a href="about.html">About Us</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Stores available</a>
+    <div class="dropdown-content">
+      <a href="kfcmenu2.html">Kentucky Fried Chicken</a>
+      <a href="oldtownmenu2.html">Old Town White Coffee</a>
+      <a href="nasi-lemak.html">Nasi Lemak Ali</a>
+    </div>
+  </li>
+  <li style="float:right"><a href="process2.php">
+  <br><input type="submit" value="Logout" style="font-weight: bold; font-align: center; 
+		padding: 5px 10px; margin: -100px 0px;">
+		</a>
+		</ul>
+		
+		</div>
+		
+		
+	<center><div class ="menu">
+		<h2>Menu Available</h2><br>
+		<h3>Please key in 0 for the amount of food, even though you do not want to order that food. Thank You !</h3>
+		<p><strong>---------------------------------------------------------------------------------------------------------------------</strong></p>
+		<br>
+		<ul>
+			<li>
+				<label>
+				<form name="total" method="post" action="processoldtown.php">
+
+					<p><input type=text name=btn1> Please write your amount of food in the box</p><br/>	
+						<input type=text name=btn2>
+						<input type=button name=btn3 value=check onclick="addnum(btn1.value)">					<span class ="icon">
+					<p><span class ="list"> Nasi Lemak </span> </p>
+					<p>RM 12.90</p>
+					<img src = "images\nasi lemak.jpg" width = "500" height = "200"alt="Nasi Lemak"></td>
+					<p><strong>---------------------------------------------------------------------------------------------------------------------</strong></p>
+				</label>
+			</li>
+		</ul>
+		<br></br>
+		
+		<ul>
+			<li>
+				<label>
+					<p><input type=text name=btn4> Please write your amount of food in the box</p><br/>
+						<input type=text name=btn5>
+						<input type=button name=btn6 value=check onclick="addnum1(btn4.value)">					<span class ="icon">
+					<b><p><span class ="list"> Mee Curry </span> </p>
+					<p>RM 14.70</p></b>
+					<img src = "images\mee curry.jpg" width = "300" height = "200"alt="Mee Curry" ></td>
+					<p><strong>---------------------------------------------------------------------------------------------------------------------</strong></p>
+				</label>
+			</li>
+		</ul>
+		<br></br>
+		
+		<ul>
+			<li>
+				<label>
+					<p><input type=text name=btn9> Please write your amount of food in the box</p><br/>
+						<input type=text name=btn10>
+						<input type=button name=btn11 value=check onclick="addnum2(btn9.value)">					<span class ="icon">
+					<b><p><span class ="list"> Fried Rice with Eggs </span> </p>
+					<p>RM 11.90</p></b>
+					<img src = "images\fried rise.jpg" width = "500" height = "200"alt="Fried Rice"></td>
+					<p><strong>---------------------------------------------------------------------------------------------------------------------</strong></p>
+				</label>
+			</li>
+		</ul>
+		<br></br>
+		
+		<ul>
+			<li>
+				<label>
+					<p><input type=text name=btn12> Please write your amount of food in the box</p><br/>
+						<input type=text name=btn13>
+						<input type=button name=btn14 value=check onclick="addnum3(btn12.value)">					<span class ="icon">
+					<b><p><span class ="list"> Giant Fried Chicken Cutlet </span></p>
+					<p>RM 10.00</p></b>
+					<img src="images\fried chicken nasi lemak.jpg" width="500" height="200" alt="Giant Fried Chicken Cutlet">
+					<p><strong>---------------------------------------------------------------------------------------------------------------------</strong></p>
+				</label>
+			</li>
+		</ul>
+		<br></br>
+		
+		<ul>
+			<li>
+				<label>
+					<p><input type=text name=btn15> Please write your amount of food in the box</p><br/>
+						<input type=text name=btn16>
+						<input type=button name=btn17 value=check onclick="addnum4(btn15.value)"><br/>					<span class ="icon">
+					<b><p><span class ="list"> Oldtown Ipoh Chicken Hor Fun</span></p>
+					<p>RM 9.00</p></b>
+					<img src="images\oldtown ipoh hor fun.jpg" width="500" height="200" alt="Oldtown Ipoh Chicken Hor Fun">
+					<p><strong>---------------------------------------------------------------------------------------------------------------------</strong></p>
+					<h2>Total = RM <input type=text name=btn7><br/>
+					<br>
+					<center><p>Please pay the amount of the food </p></center>
+					<input type=text name=btn20>
+					<input type="submit">
+					</form>
+				</label>
+			</li>
+		</ul>
+		<br>
+		<h3><a href = "web-interface.html"><p>Back</p></a></h3></center>
+
+	</body>
+
+	
+	
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Register to FoodBear</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="re_style.css">
+	</head>
+	<body>
+		<h1 style= "margin-left: 130px; font-style: italic; color: firebrick;">Registration</h1>
+		<h3 style= "margin-left: 130px; font-family: paprika; font-weight: bold; color: lightyellow";> Giving your Hunger a new Option</h2>	
+		<p style= "margin-left: 130px;">Fill up the form with the correct values</p>
+		<form method="POST" action="Registration.php">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-3"> 
+							<label for="username"><b>Username:<font color=red> *</font></b></label>
+							<strong><input class="form-control"  name="username" value="" maxlength="25"></strong>
+
+							<label for="password"><b>Password:<font color=red> *</font></b></label>
+							<strong><input class="form-control"  name="password" value="" maxlength="25"></strong>
+
+							<label for="username"><b>Email:<font color=red> *</font></b></label>
+							<strong><input class="form-control" placeholder="xxx@xxx.com" name="email" value="" maxlength="30"></strong>
+
+							<label for="username"><b>Contact:<font color=red> *</font> </b></label>
+							<strong><input class="form-control"  placeholder="Without (-)" name="contact" value="" maxlength="20"></strong>
+
+							<label for="username"><b>Address:<font color=red> *</font> </b></label>
+							<strong><textarea  placeholder="Delivering Address...." name="address" value="" rows="5" cols="50"></textarea></strong>
+					
+							<a href="Login.html"><input type="submit" name="submit" value="Submit" style="font-weight: bold";></a>&nbsp;
+							<input type="reset" name="reset" value="Clear" style="font-weight: bold";>
+				</div>
+		</form>
+	</body>
+</html>

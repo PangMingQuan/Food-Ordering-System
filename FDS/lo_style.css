@@ -1,0 +1,91 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	background:  url(images/login.jpg)no-repeat;
+	background-size: 1400px 625px;
+	position: relative;
+}
+
+.header{
+	text-align: center;
+	font-size: 38px;
+	font-style: normal;
+	font-family: cursive;
+	color: maroon;
+	margin-top: -45px;
+	background: url(images/bear.png)no-repeat;
+	background-size: 200px 160px;
+	background-position: right;
+}
+
+.login-box{
+	width: 10px;
+	position: fixed;
+	top: 48%;
+	left: 35%;
+	transform: translate(-50%, -25%);
+	color: white;
+}
+
+.login-box h2{
+	float: center;
+	color: black;
+	font-size: 33px;
+	font-style: italic;
+	border-bottom: 2px solid;
+	border-color: black;
+	margin: 28px 110px;
+	padding-right: 180px;
+}
+
+.textbox{
+	overflow: hidden;
+	font-size: 22px;
+	padding: 20px 200px;
+	margin: -40px -100px;
+}
+
+.textbox i{
+	color: black;
+	float: left;
+}
+
+.textbox input{
+	border-style: dotted;
+	border-width: 2px;
+	background-color: white;
+	color: black;
+	font-size: 20px;
+	font-weight: normal;
+	width: 200px;
+	float: left;
+	margin-bottom:  10px ;
+}
+	
+.btn{	
+	width: 200px;
+	height: 40px;
+	margin: 20px 100px;
+	margin-bottom: -15px;
+	padding: 10px 50px;
+	background: none;
+	border: 2px solid;
+	border-radius: 10px;
+	border-color: wheat;
+	color: maroon;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+	cursor: pointer;
+	-webkit-transition-duration: 0.4s; 
+  	transition-duration: 0.4s;
+}
+
+.btn:hover{
+	position: relative;
+	bottom: 3px;
+	background-color: firebrick;
+}
